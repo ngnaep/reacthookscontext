@@ -1,0 +1,109 @@
+{
+  "assessment": {
+    "activeBlock": "block1"
+  },
+  "block": {
+    "block1": {
+      "parentAttrs": {
+        "isCompleted": false
+      },
+      "items": {
+        "activeItem": "accnum1",
+        "accnum1": {
+          "isDisabled": false,
+          "response": {},
+          "toolbar": {
+            "activeTool": "",
+            "isActive": true,
+            "isDisabled": false,
+            "tools": {
+              "pencil": {
+                "isActive": false,
+                "isDisabled": false
+              },
+              "t2": {
+                "isActive": false,
+                "isDisabled": false
+              }
+            }
+          }
+        },
+        "accnum2": {
+          "isDisabled": false,
+          "response": {},
+          "toolbar": {
+            "activeTool": "",
+            "isActive": true,
+            "isDisabled": false,
+            "tools": {
+              "pencil": {
+                "isActive": false,
+                "isDisabled": false
+              },
+              "t2": {
+                "isActive": false,
+                "isDisabled": false
+              }
+            }
+          }
+        },
+        "accnum3": {
+          "isDisabled": false,
+          "response": {},
+          "toolbar": {
+            "activeTool": "",
+            "isActive": true,
+            "isDisabled": false,
+            "tools": {
+              "pencil": {
+                "isActive": false,
+                "isDisabled": false
+              },
+              "t2": {
+                "isActive": false,
+                "isDisabled": false
+              }
+            }
+          }
+        }
+      },
+      "tabstrip": {
+        "activeTabId": "accnum1",
+        "tabs": {
+          "accnum1": {
+            "itemId": "accnum1",
+            "isDisabled": false,
+            "isActive": true,
+            "isAnswered": false
+          },
+          "accnum2": {
+            "itemId": "accnum2",
+            "isDisabled": false,
+            "isActive": false,
+            "isAnswered": false
+          },
+          "accnum3": {
+            "itemId": "accnum3",
+            "isDisabled": false,
+            "isActive": false,
+            "isAnswered": false
+          },
+          "review": {
+            "isDisabled": false,
+            "isActive": false
+          }
+        }
+      },
+      "navigation": {
+        "previous": {
+          "isDisabled": true,
+          "isDisabledByTool": false
+        },
+        "next": {
+          "isDisabled": false,
+          "isDisabledByTool": false
+        }
+      }
+    }
+  }
+}

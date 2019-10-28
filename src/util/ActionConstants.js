@@ -1,0 +1,3 @@
+export const TAB_SELECTED = 'TAB_SELECTED';
+export const TOGGLE_TOOL = 'TOGGLE_TOOL';
+export const TOGGLE_NAVGTN_OPTN = 'TOGGLE_NAVGTN_OPTN';

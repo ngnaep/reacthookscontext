@@ -1,0 +1,76 @@
+{
+  "blocks": {
+    "allIds": ["block1"],
+    "byIds": {
+      "block1": {
+        "items": ["accnum1", "accnum2", "accnum3"],
+        "tabstrip": {
+          "allIds": ["accnum1", "accnum2", "accnum3", "review"],
+          "byIds": {
+            "accnum1": {
+              "label": "1"
+            },
+            "accnum2": {
+              "label": "2"
+            },
+            "accnum3": {
+              "label": "3"
+            },
+            "review": {
+              "label": "Review"
+            }
+          }
+        },
+        "navigationOptions" : ["previous", "next"]
+      }
+    }
+  },
+  "tools": {
+    "allIds": ["pencil", "t2"],
+    "byIds": {
+      "pencil": {
+        "label": "✏️"
+      },
+      "t2": {
+        "label": "🖩"
+      }
+    }
+  },
+  "navigation": {
+    "allIds": ["previous", "next"],
+    "byIds": {
+      "previous": {
+        "label": "⬅️"
+      },
+      "next": {
+        "label": "➡️"
+      }
+    }
+  },
+  "items": {
+    "allItemIds": ["accnum1", "accnum2", "accnum3"],
+    "itemById": {
+      "accnum1": {
+        "content": {
+          "text": "Item 1"
+        },
+        "tools": ["pencil", "t2"]
+      },
+      "accnum2": {
+        "content": {
+          "text": "Item 2"
+        },
+        "tools": ["pencil", "t2"]
+      },
+      "accnum3": {
+        "content": {
+          "text": "Item 3"
+        },
+        "tools": ["pencil", "t2"]
+      }
+    },
+    "review": {
+      "btntxt": ""
+    }
+  }
+}
