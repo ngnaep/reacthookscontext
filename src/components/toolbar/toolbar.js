@@ -6,7 +6,7 @@ import * as ActionUtil from "../../util/ActionUtil";
 
 const Toolbar = ({ blockId }) => {
   console.log(`Toolbar`);
-  const activeItem = useBlockState()[blockId].items.activeItem;
+  const activeItem = useBlockState()[blockId].parentAttrs.activeItem;
   const toolsState = useBlockState()[blockId].items[activeItem].toolbar.tools;
   const navOptionsState = useBlockState()[blockId].navigation;
   const toolsAndNav = [];

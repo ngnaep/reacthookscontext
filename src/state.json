@@ -5,10 +5,10 @@
   "block": {
     "block1": {
       "parentAttrs": {
-        "isCompleted": false
+        "isCompleted": false,
+        "activeItem": "accnum1"
       },
       "items": {
-        "activeItem": "accnum1",
         "accnum1": {
           "isDisabled": false,
           "response": {},

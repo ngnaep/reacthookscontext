@@ -28,7 +28,7 @@ function blockReducer(state, action) {
           newState[blockId].navigation.next.isDisabled = true;
           newState[blockId].navigation.previous.isDisabled = false;
         } else {
-          newState[blockId].items.activeItem =
+          newState[blockId].parentAttrs.activeItem =
             state[blockId].tabstrip.tabs[activatedTabId].itemId;
           newState[blockId].navigation.previous.isDisabled =
             StaticDataUtil.getTabIndex(blockId, activatedTabId) === 0;
@@ -55,7 +55,7 @@ function blockReducer(state, action) {
         newState[blockId].navigation.next.isDisabled = true;
         newState[blockId].navigation.previous.isDisabled = false;
       } else {
-        newState[blockId].items.activeItem =
+        newState[blockId].parentAttrs.activeItem =
           state[blockId].tabstrip.tabs[nextTab].itemId;
         newState[blockId].navigation.previous.isDisabled =
           StaticDataUtil.getTabIndex(blockId, nextTab) === 0;
